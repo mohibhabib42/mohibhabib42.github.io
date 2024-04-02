@@ -1,0 +1,59 @@
+@property --myColor1 {
+	syntax: '<color>';
+	initial-value: rgba(242, 15, 0, 0.4);
+	inherits: false;
+}
+
+@property --myColor2 {
+	syntax: '<color>';
+	initial-value: rgba(203, 12, 0, 0.8);
+	inherits: false;
+}
+
+@property --myColor3 {
+	syntax: '<color>';
+	initial-value: rgba(118, 0, 0, 0.9724264705882353);
+	inherits: false;
+}
+
+.especial-gradient {
+	--myColor1: rgba(254, 153, 153, 1);
+	--myColor2: rgba(138, 25, 49, 0.87796218487395);
+	--myColor3: rgba(94, 9, 28, 1);
+}
+
+.deluxe-gradient {
+	--myColor1: rgba(244, 246, 123, 1);
+	--myColor2: rgba(111, 145, 28, 0.826796218487395);
+	--myColor3: rgba(71, 100, 0, 1);
+}
+
+.pepperoni-gradient {
+	--myColor1: rgba(242, 0, 73, 0.5);
+	--myColor2: rgba(203, 0, 36, 1);
+	--myColor3: rgba(118, 0, 21, 0.969625350140056);
+}
+
+.veggie-gradient {
+	--myColor1: rgba(194, 242, 0, 0.5);
+	--myColor2: rgba(150, 203, 0, 4);
+	--myColor3: rgba(31, 118, 0, 0.9668242296918768);
+}
+
+.mexicana-gradient {
+	--myColor1: rgba(209, 153, 9, 0.5);
+	--myColor2: rgba(203, 182, 0, 1);
+	--myColor3: rgba(118, 106, 0, 0.9724264705882353);
+}
+
+.italiana-gradient {
+	--myColor1: rgba(242, 160, 0, 0.4);
+	--myColor2: rgba(203, 134, 0, 1);
+	--myColor3: rgba(118, 56, 0, 0.9668242296918768);
+}
+
+.extravaganza-gradient {
+	--myColor1: rgba(242, 15, 0, 0.4);
+	--myColor2: rgba(203, 12, 0, 0.8);
+	--myColor3: rgba(118, 0, 0, 0.9724264705882353);
+}

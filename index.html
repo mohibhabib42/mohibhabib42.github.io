@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="./styles/indes.css" rel="stylesheet" />
+    <title>Order a Pizza</title>
+</head>
+
+<body class="h-screen w-screen relative flex flex-col overflow-hidden text-white">
+    <div class="upper-flex-item">
+        <img class="pizza-toppings hidden" alt="" src="./assets/extravaganza/2 1.png" />
+
+        <div>
+            <h1 id="pizza-title" class="text-4xl font-bold tracking-in-expand">Extravaganza</h1>
+
+            <p id="pizza-description" class="text-center">
+                ¡Nuestra Pizza Extravaganza es una delicia que tienes que probar!
+                Hecha con jamón, champiñones, cebolla morada y queso de cabra.
+            </p>
+        </div>
+        
+        <img class="pizza-toppings hidden" alt="" src="./assets/extravaganza/2 1.png" />
+    </div>
+
+    <span id="next-pizza" class="rounded-full flex justify-center items-center absolute cursor-pointer" style="
+				height: 90px;
+				width: 90px;
+				border: 1px solid white;
+				background-color: rgba(217, 217, 217, 0.5);
+				bottom: 5%;
+				right: 5vw;
+				z-index: 1;
+			">
+        <img style="color: white" alt="" src="./assets/right.png" />
+    </span>
+
+    <span id="previous-pizza" class="rounded-full flex justify-center items-center absolute cursor-pointer hidden"
+        style="
+				height: 90px;
+				width: 90px;
+				border: 1px solid white;
+				background-color: rgba(217, 217, 217, 0.5);
+				bottom: 5%;
+				left: 5vw;
+				z-index: 1;
+			">
+        <img style="color: white" alt="" src="./assets/left.png" />
+    </span>
+    <div class="bottom-flex-item flex justify-center relative">
+        <div class="absolute image-container-new border-2 border-white rounded-full p-8">
+            <div class="w-full h-full relative">
+                <div class="w-full h-full absolute">
+                    <div class="w-full font-light tracking-widest" id="pizza-categories">
+                        <span class="text-around">
+                            <h4>Extravaganza</h4>
+                        </span>
+                        <span class="text-around">
+                            <h4>Italiana</h4>
+                        </span>
+                        <span class="text-around">
+                            <h4>Mexicana</h4>
+                        </span>
+                        <span class="text-around">
+                            <h4>Veggie</h4>
+                        </span>
+                        <span class="text-around">
+                            <h4>Pepperoni</h4>
+                        </span>
+                        <span class="text-around">
+                            <h4>Deluxe</h4>
+                        </span>
+                        <span class="text-around">
+                            <h4>Especial</h4>
+                        </span>
+                        <div id="dot-container" class="dot-container">
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pizza-image">
+                    <img alt="" src="./assets/extravaganza/pizza-5.png" class="h-auto" id="pizza-image" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>
